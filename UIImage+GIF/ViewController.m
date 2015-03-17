@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImageView+GIF.h"
 
 @interface ViewController ()
 
@@ -17,9 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test.gif"]];
+    UIImageView *errorImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test.gif"]];
     
-    [self.view addSubview:imageView];
+    [self.view addSubview:errorImageView];
+    
+    CGRect rect = CGRectMake(0, 251, 300, 250);
+    UIImageView *rightImageView = [UIImageView imageViewWithGIFFile:[[NSBundle mainBundle] pathForResource:@"test.gif" ofType:nil] frame:rect];
+    
+    [self.view addSubview:rightImageView];
 }
 
 - (void)didReceiveMemoryWarning {

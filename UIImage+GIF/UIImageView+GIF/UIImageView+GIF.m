@@ -1,15 +1,15 @@
 //
-//  UIImage+GIF.m
+//  UIImageView+GIF.m
 //  UIImage+GIF
 //
 //  Created by JieLee on 15/3/17.
 //  Copyright (c) 2015年 PUPBOSS. All rights reserved.
 //
 
-#import "UIImage+GIF.h"
+#import "UIImageView+GIF.h"
 #import <ImageIO/ImageIO.h>
 
-@implementation UIImage (GIF)
+@implementation UIImageView (GIF)
 
 + (UIImageView *)imageViewWithGIFFile:(NSString *)file frame:(CGRect)frame
 {
@@ -57,5 +57,4 @@
     
     return imageView;
 }
-
 @end

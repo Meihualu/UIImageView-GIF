@@ -1,5 +1,5 @@
 //
-//  UIImage+GIF.h
+//  UIImageView+GIF.h
 //  UIImage+GIF
 //
 //  Created by JieLee on 15/3/17.
@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (GIF)
+@interface UIImageView (GIF)
 
-// 从指定的路径加载GIF并创建UIImageView
+/**
+ *  输入路径，返回一个 UIImageView
+ *
+ *  @param file  路径
+ *  @param frame frame
+ *
+ *  @return      UIImageView
+ */
 + (UIImageView *)imageViewWithGIFFile:(NSString *)file frame:(CGRect)frame;
-
 @end

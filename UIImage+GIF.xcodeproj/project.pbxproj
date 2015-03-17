@@ -15,7 +15,7 @@
 		D545F9961AB7F6ED0015DE00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D545F9941AB7F6ED0015DE00 /* LaunchScreen.xib */; };
 		D545F9A21AB7F6ED0015DE00 /* UIImage_GIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D545F9A11AB7F6ED0015DE00 /* UIImage_GIFTests.m */; };
 		D545F9AD1AB7F8770015DE00 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = D545F9AC1AB7F8770015DE00 /* test.gif */; };
-		D545F9B01AB7F97D0015DE00 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D545F9AF1AB7F97D0015DE00 /* UIImage+GIF.m */; };
+		D545F9B41AB7FC340015DE00 /* UIImageView+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = D545F9B31AB7FC340015DE00 /* UIImageView+GIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		D545F9A01AB7F6ED0015DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D545F9A11AB7F6ED0015DE00 /* UIImage_GIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_GIFTests.m; sourceTree = "<group>"; };
 		D545F9AC1AB7F8770015DE00 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
-		D545F9AE1AB7F97D0015DE00 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
-		D545F9AF1AB7F97D0015DE00 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		D545F9B21AB7FC340015DE00 /* UIImageView+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GIF.h"; sourceTree = "<group>"; };
+		D545F9B31AB7FC340015DE00 /* UIImageView+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D545F98F1AB7F6ED0015DE00 /* Main.storyboard */,
-				D545F9AB1AB7F8550015DE00 /* UIImage+GIF */,
+				D545F9B11AB7FC230015DE00 /* UIImageView+GIF */,
 				D545F98C1AB7F6ED0015DE00 /* ViewController.h */,
 				D545F98D1AB7F6ED0015DE00 /* ViewController.m */,
 				D545F9851AB7F6ED0015DE00 /* Supporting Files */,
@@ -126,13 +126,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D545F9AB1AB7F8550015DE00 /* UIImage+GIF */ = {
+		D545F9B11AB7FC230015DE00 /* UIImageView+GIF */ = {
 			isa = PBXGroup;
 			children = (
-				D545F9AE1AB7F97D0015DE00 /* UIImage+GIF.h */,
-				D545F9AF1AB7F97D0015DE00 /* UIImage+GIF.m */,
+				D545F9B21AB7FC340015DE00 /* UIImageView+GIF.h */,
+				D545F9B31AB7FC340015DE00 /* UIImageView+GIF.m */,
 			);
-			path = "UIImage+GIF";
+			path = "UIImageView+GIF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +237,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D545F98E1AB7F6ED0015DE00 /* ViewController.m in Sources */,
+				D545F9B41AB7FC340015DE00 /* UIImageView+GIF.m in Sources */,
 				D545F98B1AB7F6ED0015DE00 /* AppDelegate.m in Sources */,
-				D545F9B01AB7F97D0015DE00 /* UIImage+GIF.m in Sources */,
 				D545F9881AB7F6ED0015DE00 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
