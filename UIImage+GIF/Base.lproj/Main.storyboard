@@ -15,24 +15,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0jL-Ho-e20">
-                                <rect key="frame" x="164" y="170" width="272" height="260"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="260" id="Om5-s5-wpN"/>
-                                    <constraint firstAttribute="width" constant="272" id="q8D-G5-0Cb"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="0jL-Ho-e20" secondAttribute="centerX" id="dxP-TB-2AX"/>
-                            <constraint firstAttribute="centerY" secondItem="0jL-Ho-e20" secondAttribute="centerY" id="epm-XV-Nr2"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="imageView" destination="0jL-Ho-e20" id="Hqd-nb-3kR"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

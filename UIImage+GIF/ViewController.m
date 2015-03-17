@@ -9,7 +9,6 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -18,7 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.imageView.image = [UIImage imageNamed:@"test.gif"];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test.gif"]];
+    
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
