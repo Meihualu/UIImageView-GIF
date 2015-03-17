@@ -14,6 +14,7 @@
 		D545F9931AB7F6ED0015DE00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D545F9921AB7F6ED0015DE00 /* Images.xcassets */; };
 		D545F9961AB7F6ED0015DE00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D545F9941AB7F6ED0015DE00 /* LaunchScreen.xib */; };
 		D545F9A21AB7F6ED0015DE00 /* UIImage_GIFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D545F9A11AB7F6ED0015DE00 /* UIImage_GIFTests.m */; };
+		D545F9AD1AB7F8770015DE00 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = D545F9AC1AB7F8770015DE00 /* test.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D545F99B1AB7F6ED0015DE00 /* UIImage+GIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIImage+GIFTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D545F9A01AB7F6ED0015DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D545F9A11AB7F6ED0015DE00 /* UIImage_GIFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImage_GIFTests.m; sourceTree = "<group>"; };
+		D545F9AC1AB7F8770015DE00 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +83,10 @@
 		D545F9841AB7F6ED0015DE00 /* UIImage+GIF */ = {
 			isa = PBXGroup;
 			children = (
-				D545F9891AB7F6ED0015DE00 /* AppDelegate.h */,
-				D545F98A1AB7F6ED0015DE00 /* AppDelegate.m */,
+				D545F98F1AB7F6ED0015DE00 /* Main.storyboard */,
+				D545F9AB1AB7F8550015DE00 /* UIImage+GIF */,
 				D545F98C1AB7F6ED0015DE00 /* ViewController.h */,
 				D545F98D1AB7F6ED0015DE00 /* ViewController.m */,
-				D545F98F1AB7F6ED0015DE00 /* Main.storyboard */,
-				D545F9921AB7F6ED0015DE00 /* Images.xcassets */,
-				D545F9941AB7F6ED0015DE00 /* LaunchScreen.xib */,
 				D545F9851AB7F6ED0015DE00 /* Supporting Files */,
 			);
 			path = "UIImage+GIF";
@@ -96,6 +95,11 @@
 		D545F9851AB7F6ED0015DE00 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D545F9AC1AB7F8770015DE00 /* test.gif */,
+				D545F9891AB7F6ED0015DE00 /* AppDelegate.h */,
+				D545F98A1AB7F6ED0015DE00 /* AppDelegate.m */,
+				D545F9921AB7F6ED0015DE00 /* Images.xcassets */,
+				D545F9941AB7F6ED0015DE00 /* LaunchScreen.xib */,
 				D545F9861AB7F6ED0015DE00 /* Info.plist */,
 				D545F9871AB7F6ED0015DE00 /* main.m */,
 			);
@@ -117,6 +121,13 @@
 				D545F9A01AB7F6ED0015DE00 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D545F9AB1AB7F8550015DE00 /* UIImage+GIF */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIImage+GIF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D545F9AD1AB7F8770015DE00 /* test.gif in Resources */,
 				D545F9911AB7F6ED0015DE00 /* Main.storyboard in Resources */,
 				D545F9961AB7F6ED0015DE00 /* LaunchScreen.xib in Resources */,
 				D545F9931AB7F6ED0015DE00 /* Images.xcassets in Resources */,
