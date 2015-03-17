@@ -18,9 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 添加一个普通的 UIImageView
     UIImageView *errorImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test.gif"]];
     
     [self.view addSubview:errorImageView];
+    
+    
+    // 使用 UIImageView+GIF 创建一个 UIImageView
     
     CGRect rect = CGRectMake(0, 251, 300, 250);
     UIImageView *rightImageView = [UIImageView imageViewWithGIFFile:[[NSBundle mainBundle] pathForResource:@"test.gif" ofType:nil] frame:rect];
